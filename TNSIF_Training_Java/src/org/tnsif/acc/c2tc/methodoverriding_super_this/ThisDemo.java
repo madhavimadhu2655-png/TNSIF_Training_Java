@@ -2,13 +2,16 @@ package org.tnsif.acc.c2tc.methodoverriding_super_this;
 
 class ProductBottle{
 	double price;
-	ProductBottle(double price){
+	ProductBottle(double price)
+	{
 		this.price=price;
 	}
-	double calculateDiscount() {
+	double calculateDiscount() 
+	{
 		return this.price*0.10;
 	}
-	double calculateTotalPrice() {
+	double calculateTotalPrice() 
+	{
 		return this.price-this.calculateDiscount();
 	}
 }
