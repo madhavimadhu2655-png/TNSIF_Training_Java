@@ -14,13 +14,11 @@ public class PalindromeString {
         String original = str;
         String reverse = "";
 
-        // Reverse the string
         for (int i = str.length() - 1; i >= 0; i--) {
             reverse = reverse + str.charAt(i);
         }
 
-        // Compare original and reversed strings
-        if (original.equals(reverse)) {
+                if (original.equals(reverse)) {
             System.out.println("The string is a Palindrome.");
         } else {
             System.out.println("The string is Not a Palindrome.");

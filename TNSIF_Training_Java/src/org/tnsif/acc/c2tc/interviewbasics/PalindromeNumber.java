@@ -15,9 +15,9 @@ public class PalindromeNumber {
         int reverse = 0;
 
         while (num > 0) {
-            int digit = num % 10;          // Get last digit
-            reverse = reverse * 10 + digit; // Build reversed number
-            num = num / 10;                // Remove last digit
+            int digit = num % 10;          
+            reverse = reverse * 10 + digit; 
+            num = num / 10;                
         }
 
         if (original == reverse) {
