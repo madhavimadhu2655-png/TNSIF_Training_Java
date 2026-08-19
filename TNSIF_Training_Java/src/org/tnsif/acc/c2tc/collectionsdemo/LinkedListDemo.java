@@ -1,12 +1,12 @@
 package org.tnsif.acc.c2tc.collectionsdemo;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
-public class ArrayListDemo2 {
+public class LinkedListDemo {
 
 	public static void main(String[] args) {
-		List<String> fruits=new ArrayList<>();
+		List<String> fruits=new LinkedList<>();
 		fruits.add("Apple");
 		fruits.add("Mango");
 		fruits.add("Dragon");
