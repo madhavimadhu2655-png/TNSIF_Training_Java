@@ -1,4 +1,4 @@
-package org.tnsif.c2tc.staticdemo_finaldemo;
+package org.tnsif.acc.c2tc.staticdemo_finaldemo;
 
 class Student
 {
