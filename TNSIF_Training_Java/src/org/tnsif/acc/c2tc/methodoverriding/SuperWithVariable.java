@@ -1,4 +1,4 @@
-package org.tnsif.acc.c2tc.methodoverriding_super;
+package org.tnsif.acc.c2tc.methodoverriding;
 
 class Notification{
 	String message="Default Notification";
